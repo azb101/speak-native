@@ -1,0 +1,12 @@
+version: "3"
+services:
+    loadtestdb:
+        env_file:
+            - .env
+        build: ./src/Backend/LoadTesting/test100/.
+        ports:
+            - "1433:1433"
+        environment:
+            - "ACCEPT_EULA=Y"
+            - "MSSQL_PID=DEVELOPER"
+          

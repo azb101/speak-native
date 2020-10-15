@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseURL</key>
+	<string>http://localhost:5000/api/phrases</string>
+	<key>bodyString</key>
+	<string>{
+  "userId": "85228051-f6c3-b74e-b293-238f0e58a49f",
+  "phraseIds" : [
+     "7dbc6de0-673a-48e6-aba1-32d405b16f47"
+  ]
+}</string>
+	<key>followRedirect</key>
+	<true/>
+	<key>handleJSONPCallbacks</key>
+	<false/>
+	<key>headers</key>
+	<array>
+		<dict>
+			<key>header</key>
+			<string>Content-Type</string>
+			<key>inUse</key>
+			<true/>
+			<key>value</key>
+			<string>application/json</string>
+		</dict>
+		<dict>
+			<key>header</key>
+			<string>Authorization</string>
+			<key>inUse</key>
+			<false/>
+			<key>value</key>
+			<string>Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6IjUxODAyMjg1LWMzZjYtNGViNy1iMjkzLTIzOGYwZTU4YTQ5ZiIsIm5iZiI6MTU5MTU2Mzc5OSwiZXhwIjoxNTkyMTY4NTk5LCJpYXQiOjE1OTE1NjM3OTl9.28_EG5256waUEC5607KlCa-_dP-ZGVy_BPxxr4PiMUI</string>
+		</dict>
+	</array>
+	<key>httpMethod</key>
+	<string>DELETE</string>
+	<key>jsonpScript</key>
+	<string></string>
+	<key>paramBodyUIChoice</key>
+	<integer>0</integer>
+	<key>parameters</key>
+	<array>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>Email</string>
+			<key>value</key>
+			<string>abuse@gmail.com</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<true/>
+			<key>parameter</key>
+			<string>userId</string>
+			<key>value</key>
+			<string>85228051-f6c3-b74e-b293-238f0e58a49f</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>targetLang</string>
+			<key>value</key>
+			<string>aaaa</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>referenceLang</string>
+			<key>value</key>
+			<string>bbbb</string>
+		</dict>
+		<dict>
+			<key>inUse</key>
+			<false/>
+			<key>parameter</key>
+			<string>Password</string>
+			<key>value</key>
+			<string>temp</string>
+		</dict>
+	</array>
+	<key>parametersType</key>
+	<integer>1</integer>
+	<key>presentBeforeChallenge</key>
+	<false/>
+	<key>stringEncoding</key>
+	<integer>4</integer>
+	<key>usingHTTPBody</key>
+	<true/>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+
+
+Process:
+
+- User find some useful phrases to memorise by watching next episode of TV series or
+By reading a book or in the internet, or etc;
+- User put them to the application;
+- User go to work/drive to work/simple study;
+	- user get 10 random words
+	- user use + buttons - to mark if he knows the word or not
+		- app loads 10 words;
+		- when whole 10 proceeded
+			- user clicks + to get next 10 words
+			- app loads next 10 word and memorise answers state for previous list to build statistics for next time;

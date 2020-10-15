@@ -1,0 +1,12 @@
+Participants:
+
+Entities:
+- Mobile Application
+- Web Application
+- Api
+
+
+Users:
+- Simple User
+- Admin? (later on)
+

@@ -1,0 +1,21 @@
+User stories:
+
+As user I want to be able to:
+- add some random phrase in English and it's translation in Russian to a store for memorising it mechanically later on;
+
+- get random 10 words to check if I know how that words or not. I want to get 10 random words in Russian
+
+- check those words iteratively, and memorise them mechanically
+
+- have whole process quite quick and intuitive. I want to be able to memorise those words while going to work by foot, in bus, in car while driving to work. I want to have ability to track words by eyes or by speech;  
+
+- words should be tracked, which I answered correctly many time should be retrieved less;
+App should track frequency and correctness; I also want to hide words to archive or delete them;
+
+Additional:
+- I want my get words grouped by topic/area (utensil, medicine, part of body, car, etc);
+- I want to share my word to my friends;
+- I want to to have predefined words list;
+- I want my words processed by ML to have better words of list
+- I want to put words easier: using speech to text
+- I want app pushed some notification about next repeating session

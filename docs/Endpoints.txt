@@ -1,0 +1,19 @@
+
+
+
+Phrases:
+	
+	GET:
+		+ api/phrases/index		-> place holder for future hateos entry link
+		+ api/phrases 			-> get all phrases
+		+ api/phrases/random/{count}	-> get random n phrases
+		+ api/phrases/{id}		-> get specific phrase
+	POST:
+		- api/phrases			-> add phrase
+		- api/phrases/persist		-> persist result from previous iteration/update ratings
+	
+	PUT:
+		- api/phrase/1			-> update phrase
+
+	DELETE:
+		- api/phrase/1			-> delete spec phrase

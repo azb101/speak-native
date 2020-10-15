@@ -1,0 +1,17 @@
+
+
+1. To run api and db:
+
+    - docker-compose -f db.yml -f api.yml up
+    - wait till db migration will be applied (±30 sec)
+
+2. To test if api works:
+    make http get to :    http://localhost:5000/api/phrases/health
+
+3. To test if api and db works
+    - make post request with Email = "abuse@gmail.com" and Password = "temp" to http://localhost:5000/api/users/auth
+    - content-type should be application-json
+
+4. to run web
+    - start api and db (like in step 1)
+    - run npm start

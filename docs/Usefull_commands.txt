@@ -1,0 +1,24 @@
+
+
+1. to check if port is busy (int this example 5001)
+    lsof -nP -i4TCP:5001 | grep LISTEN
+
+2. to kill busy port (5001 in this example)
+    kill -9 5001
+
+3. to run containers:
+    docker-compose -f api.yml -f db.yml up
+
+4. to make a backup of database:
+    - join to db (int plugin, management studio or sqlcmd)
+    - run: 
+        backup database SpeakNativeDB TO Disk='/var/bpk/db.bak' WITH FORMAT;
+
+5. copy file from container to host
+    - docker cp container_id:/var/bpk/db.bak /var/bpk/bd.bak
+
+
+
+6. To run spring boot that is war use:
+	- mvn spring-boot:run
+

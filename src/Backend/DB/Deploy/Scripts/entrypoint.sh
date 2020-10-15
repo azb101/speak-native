@@ -1,0 +1,1 @@
+./Scripts/run_migrations.sh & /opt/mssql/bin/sqlservr 
