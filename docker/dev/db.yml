@@ -1,0 +1,14 @@
+version: "3"
+services:
+    db:
+        build: ../../src/Backend/DB/Deploy/.
+        image: sn_db
+        ports:
+            - "1433:1433" 
+        environment:
+            - "ACCEPT_EULA=Y"
+            - "MSSQL_PID=DEVELOPER"
+            - "MSSQL_SA_PASSWORD=Password!123"
+            - "SQLCOLLATION=Cyrillic_General_CI_A"
+            - "TZ=Europe/Warsaw"
+          
