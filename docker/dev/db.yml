@@ -11,4 +11,3 @@ services:
             - "MSSQL_SA_PASSWORD=Password!123"
             - "SQLCOLLATION=Cyrillic_General_CI_A"
             - "TZ=Europe/Warsaw"
-          

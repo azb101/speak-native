@@ -4,4 +4,9 @@ services:
         build: ../../src/Backend/Api/speak-native-api/.
         image: sn_api
         ports:
-            - "5000:8080"
+            - "5000:5000"
+        environment:
+            #- spring.profiles.active=docker 
+            - SN_DB_HOST=172.19.0.2
+            - SN_DB_USER=SA
+            - SN_DB_PWD=Password!123
